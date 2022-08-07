@@ -1,0 +1,108 @@
+var array = ["david","juan","lukas"];
+
+function resultado (){
+    for(var i = 0; i < 3; i++){
+        console.log(`El elemento ${array[i]} esta en el lugar ${i}`)
+    }
+}
+
+resultado()
+
+/*
+var valores = ["david","juan","lukas"];
+
+function array (valores){
+    return valores[0];
+}
+
+alert(array(valores));
+
+
+
+/*
+function resultado (preg,salir){
+    if(preg===4){
+        alert("Felicidades tu respuesta es correcta");
+        salir = 2;
+    }else if(preg != 4){
+        alert("Por que no respondes bien pelao ponte serio");
+    }
+}
+
+    var salir = 1;
+
+while(salir <= 1){
+    var preg1 = prompt("cuanto es 2 + 2");
+    var preg = parseInt(preg1);
+    resultado(preg,salir);
+}
+
+/*
+//se declara
+var x;
+//inicializar
+x= "david";
+//todo
+var z = "todo";
+//identificar tipo de datos
+
+"nombre"//string
+"apellido"//string
+"usuario"//string 
+"edad"//number
+"correo"//string
+"mayor de edad?"//number, boolean
+"dinero"//number float
+"deudas"//number
+
+var nombre = "David" ;
+var apellido = "Navarro" ;
+var usuario = "DAVID5533" ;
+var edad = 17 ;
+var correo = "davidjosenavarro@gmail.com" ;
+var mayorde = false ; 
+var dinero =  500000.00 ;
+var deudas = 10000 ;
+
+
+console.log(`Su nombre completo es ${nombre} ${apellido}`);
+//alert(`Su nombre completo es ${nombre} ${apellido}`);
+
+var totaldi = dinero - deudas;
+
+console.log(`total de dinero ${dinero} - ${deudas} = ${totaldi}`);
+//alert(`total de dinero ${dinero} - ${deudas} = ${totaldi}`);
+
+function suma  (a,b) {
+    
+   var resultado = a+b;//variable para almacenar el resultado de la operacion.
+
+   return resultado;//return= retornar valor de la funcion.
+
+}
+
+function presentacion (nombre, apellido, usuario){
+    console.log(`Mi nombre completo es ${nombre} ${apellido} y su usuario es ${usuario}`);
+}
+
+presentacion(nombre,apellido,usuario);
+var salir = 1;
+
+while(salir<=1){
+
+    var tipsub = prompt ("que tipo de sub tienes? (free) (basic) (expert) (expertplus)");
+
+    if(tipsub=== "free"){
+        alert("solo puedes tomar los cusos gratis");
+    }else if(tipsub=== "basic"){
+        alert("Solo puedes tomar casi todos los cursos durante el mes");
+    }else if(tipsub=== "expert"){
+        alert("Puedes tomar casi todos los cursos durante el anio");
+    }else if(tipsub=== "expertplus"){
+        alert("Tu y alguien mas pueden tomar Todos los cursos durante el anio");
+    }else{
+        alert("ingrese valores validos");
+    }
+
+}
+*/
